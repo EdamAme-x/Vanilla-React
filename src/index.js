@@ -1,10 +1,5 @@
-import { $ } from "https://deno.land/x/freact/bundle.js";
+import { App } from "./App.js";
 
-function App() {
-    return $.Fragment({},
-        $.div({}, "Hello World")
-    )
-}
 
 ReactDOM.createRoot(document.getElementById("app")).render(
     App()
